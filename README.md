@@ -61,8 +61,8 @@ cd MoodMuse
 python moodmuse.py
 ```
 
-#📷 Project Preview
-
+# 📷 Project Preview
+<img width="601" height="367" alt="moodmuse_demo" src="https://github.com/user-attachments/assets/edb55d9c-0b1d-4f5d-91d2-26844d6c2d00" />
 
 
 # 🔮 Future Improvements
