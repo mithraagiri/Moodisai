@@ -1,0 +1,919 @@
+[
+{
+  "title": "Happy",
+  "artist": "Pharrell Williams",
+  "language": "English",
+  "mood": "Happy",
+  "genre": "Pop",
+  "duration": "3:53",
+  "spotify": "https://open.spotify.com/track/60nZcImufyMA1MKQY3dcCH",
+  "youtube": "https://www.youtube.com/watch?v=ZbZSe6N_BXs"
+},
+
+{
+  "title": "Arabic Kuthu",
+  "artist": "Anirudh Ravichander",
+  "language": "Tamil",
+  "mood": "Happy",
+  "genre": "Dance",
+  "duration": "4:12",
+  "spotify": "https://open.spotify.com/search/Arabic%20Kuthu",
+  "youtube": "https://www.youtube.com/watch?v=KUN5Uf9mObQ"
+},
+
+{
+  "title": "Enjoy Enjaami",
+  "artist": "Dhee, Arivu",
+  "language": "Tamil",
+  "mood": "Happy",
+  "genre": "Folk",
+  "duration": "4:39",
+  "spotify": "https://open.spotify.com/track/1baHxgYktT8eDdmtTozJF9",
+  "youtube": "https://www.youtube.com/watch?v=eYq7WapuDLU"
+},
+
+{
+  "title": "Butta Bomma",
+  "artist": "Armaan Malik",
+  "language": "Telugu",
+  "mood": "Happy",
+  "genre": "Pop",
+  "duration": "3:18",
+  "spotify": "https://open.spotify.com/track/6UnLE8pmu1IhbciV27BrL9",
+  "youtube": "https://www.youtube.com/results?search_query=Butta+Bomma+official+video"
+},
+
+{
+  "title": "Pavizha Mazha",
+  "artist": "K.S. Harisankar",
+  "language": "Malayalam",
+  "mood": "Happy",
+  "genre": "Melody",
+  "duration": "3:52",
+  "spotify": "https://open.spotify.com/search/Pavizha%20Mazha%20KS%20Harisankar",
+  "youtube": "https://www.youtube.com/results?search_query=Pavizha+Mazha+KS+Harisankar+official"
+},
+{
+  "title": "Someone Like You",
+  "artist": "Adele",
+  "language": "English",
+  "mood": "Sad",
+  "genre": "Soul",
+  "duration": "4:45",
+  "spotify": "https://open.spotify.com/track/5lkpeJwmQKgY3bX2zChjxX",
+  "youtube": "https://www.youtube.com/watch?v=hLQl3WQQoQ0"
+},
+
+{
+  "title": "Kanave Kanave",
+  "artist": "Anirudh Ravichander",
+  "language": "Tamil",
+  "mood": "Sad",
+  "genre": "Melody",
+  "duration": "4:47",
+  "spotify": "https://open.spotify.com/track/6sPW145Y3LSXd4p1LjBOcS",
+  "youtube": "https://www.youtube.com/watch?v=qD53-RZpTOc"
+},
+
+{
+  "title": "Adiga Adiga",
+  "artist": "Sid Sriram",
+  "language": "Telugu",
+  "mood": "Sad",
+  "genre": "Melody",
+  "duration": "3:30",
+  "spotify": "https://open.spotify.com/track/4nxIkeNoD8Ivqe36kEa3zu",
+  "youtube": "https://www.youtube.com/watch?v=zrGs4AkqNyk"
+},
+
+{
+  "title": "Aaradhike",
+  "artist": "Sooraj Santhosh",
+  "language": "Malayalam",
+  "mood": "Sad",
+  "genre": "Melody",
+  "duration": "4:05",
+  "spotify": "https://open.spotify.com/search/Aaradhike%20Sooraj%20Santhosh",
+  "youtube": "https://www.youtube.com/results?search_query=Aaradhike+Sooraj+Santhosh"
+},
+
+{
+  "title": "Let Her Go",
+  "artist": "Passenger",
+  "language": "English",
+  "mood": "Sad",
+  "genre": "Acoustic",
+  "duration": "4:12",
+  "spotify": "https://open.spotify.com/track/5Z8HZM6iQMhhC4bKfS8d1m",
+  "youtube": "https://www.youtube.com/watch?v=RBumgq5yVrA"
+},
+
+
+{
+  "title": "Believer",
+  "artist": "Imagine Dragons",
+  "language": "English",
+  "mood": "Energetic",
+  "genre": "Rock",
+  "duration": "3:24",
+  "spotify": "https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP",
+  "youtube": "https://www.youtube.com/watch?v=7wtfhZwyrcc"
+},
+
+{
+  "title": "Vaathi Coming",
+  "artist": "Anirudh Ravichander",
+  "language": "Tamil",
+  "mood": "Energetic",
+  "genre": "Dance",
+  "duration": "3:49",
+  "spotify": "https://open.spotify.com/track/6dAV0ht8844gxIqJMRMwfs",
+  "youtube": "https://www.youtube.com/watch?v=BMFxVtsXgRk"
+},
+
+{
+  "title": "Ramuloo Ramulaa",
+  "artist": "Anurag Kulkarni",
+  "language": "Telugu",
+  "mood": "Energetic",
+  "genre": "Dance",
+  "duration": "4:05",
+  "spotify": "https://open.spotify.com/search/Ramuloo%20Ramulaa",
+  "youtube": "https://www.youtube.com/results?search_query=Ramuloo+Ramulaa+official+video"
+},
+
+{
+  "title": "Jimikki Kammal",
+  "artist": "Vineeth Sreenivasan",
+  "language": "Malayalam",
+  "mood": "Energetic",
+  "genre": "Folk",
+  "duration": "3:58",
+  "spotify": "https://open.spotify.com/search/Jimikki%20Kammal",
+  "youtube": "https://www.youtube.com/results?search_query=Jimikki+Kammal+official+video"
+},
+
+{
+  "title": "Thunder",
+  "artist": "Imagine Dragons",
+  "language": "English",
+  "mood": "Energetic",
+  "genre": "Pop Rock",
+  "duration": "3:07",
+  "spotify": "https://open.spotify.com/track/0tKcYR2II1VCQWT79i5NrW",
+  "youtube": "https://www.youtube.com/watch?v=fKopy74weus"
+},
+
+
+
+{
+  "title": "Hall of Fame",
+  "artist": "The Script",
+  "language": "English",
+  "mood": "Motivated",
+  "genre": "Pop Rock",
+  "duration": "3:22",
+  "spotify": "https://open.spotify.com/search/Hall%20of%20Fame%20The%20Script",
+  "youtube": "https://www.youtube.com/watch?v=dtgoDXEOxTM"
+},
+
+{
+  "title": "Whatever It Takes",
+  "artist": "Imagine Dragons",
+  "language": "English",
+  "mood": "Motivated",
+  "genre": "Rock",
+  "duration": "3:21",
+  "spotify": "https://open.spotify.com/track/0RLBQqYTp1vDlKlcpPPEJO",
+  "youtube": "https://www.youtube.com/watch?v=gOsM-DYAEhY"
+},
+
+{
+  "title": "Aalaporan Tamizhan",
+  "artist": "A.R. Rahman",
+  "language": "Tamil",
+  "mood": "Motivated",
+  "genre": "Folk",
+  "duration": "5:48",
+  "spotify": "https://open.spotify.com/search/Aalaporan%20Tamizhan",
+  "youtube": "https://www.youtube.com/results?search_query=Aalaporan+Tamizhan+official"
+},
+
+
+{
+  "title": "Perfect",
+  "artist": "Ed Sheeran",
+  "language": "English",
+  "mood": "Relaxed",
+  "genre": "Acoustic",
+  "duration": "4:23",
+  "spotify": "https://open.spotify.com/track/0tgVpDi06FyKpA1z0VMD4v",
+  "youtube": "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+},
+
+{
+  "title": "Munbe Vaa",
+  "artist": "Shreya Ghoshal",
+  "language": "Tamil",
+  "mood": "Relaxed",
+  "genre": "Melody",
+  "duration": "5:58",
+  "spotify": "https://open.spotify.com/track/6vZj02bcQqLTYRAi4jRkw7",
+  "youtube": "https://www.youtube.com/watch?v=4F3L7q0Z2YQ"
+},
+
+{
+  "title": "Inkem Inkem Inkem Kaavaale",
+  "artist": "Sid Sriram",
+  "language": "Telugu",
+  "mood": "Relaxed",
+  "genre": "Melody",
+  "duration": "4:26",
+  "spotify": "https://open.spotify.com/search/Inkem%20Inkem%20Inkem%20Kaavaale",
+  "youtube": "https://www.youtube.com/results?search_query=Inkem+Inkem+Inkem+Kaavaale+official"
+},
+
+{
+  "title": "Aararo Aariraro",
+  "artist": "K.S. Chithra",
+  "language": "Malayalam",
+  "mood": "Relaxed",
+  "genre": "Melody",
+  "duration": "4:10",
+  "spotify": "https://open.spotify.com/search/Aararo%20Aariraro",
+  "youtube": "https://www.youtube.com/results?search_query=Aararo+Aariraro+official"
+},
+
+
+
+
+{
+  "title": "Until I Found You",
+  "artist": "Stephen Sanchez",
+  "language": "English",
+  "mood": "Romantic",
+  "genre": "Love",
+  "duration": "2:57",
+  "spotify": "https://open.spotify.com/track/0a1VYv9e9Vf5ZQJq8Q9rQK",
+  "youtube": "https://www.youtube.com/watch?v=GxldQ9eX2wo"
+},
+
+{
+  "title": "Vaseegara",
+  "artist": "Bombay Jayashri",
+  "language": "Tamil",
+  "mood": "Romantic",
+  "genre": "Melody",
+  "duration": "5:02",
+  "spotify": "https://open.spotify.com/track/0bK0t1SBYT535UQVUXXNwN",
+  "youtube": "https://www.youtube.com/live/PYgcJpC6WAQ"
+},
+
+{
+  "title": "Oh Sita Hey Rama",
+  "artist": "SPB Charan",
+  "language": "Telugu",
+  "mood": "Romantic",
+  "genre": "Love",
+  "duration": "3:54",
+  "spotify": "https://open.spotify.com/search/Oh%20Sita%20Hey%20Rama",
+  "youtube": "https://www.youtube.com/results?search_query=Oh+Sita+Hey+Rama+official"
+},
+
+{
+  "title": "Malare",
+  "artist": "Vijay Yesudas",
+  "language": "Malayalam",
+  "mood": "Romantic",
+  "genre": "Melody",
+  "duration": "5:16",
+  "spotify": "https://open.spotify.com/search/Malare%20Vijay%20Yesudas",
+  "youtube": "https://www.youtube.com/results?search_query=Malare+Vijay+Yesudas+official"
+},
+
+{
+  "title": "All Of Me",
+  "artist": "John Legend",
+  "language": "English",
+  "mood": "Romantic",
+  "genre": "R&B",
+  "duration": "4:29",
+  "spotify": "https://open.spotify.com/track/3U4isOIWM3VvDubwSI3y7a",
+  "youtube": "https://www.youtube.com/watch?v=450p7goxZqg"
+},
+
+
+
+{
+  "title": "Weightless",
+  "artist": "Marconi Union",
+  "language": "English",
+  "mood": "Sleep",
+  "genre": "Ambient",
+  "duration": "8:00",
+  "spotify": "https://open.spotify.com/track/6kkwzB6hXLIONkEk9JciA6",
+  "youtube": "https://www.youtube.com/results?search_query=Marconi+Union+Weightless+official"
+},
+
+{
+  "title": "Nila Kaigirathu",
+  "artist": "A.R. Rahman",
+  "language": "Tamil",
+  "mood": "Sleep",
+  "genre": "Calm",
+  "duration": "4:50",
+  "spotify": "https://open.spotify.com/search/Nila%20Kaigirathu%20A%20R%20Rahman",
+  "youtube": "https://www.youtube.com/watch?v=BJ4TlYhoKPY"
+},
+
+{
+  "title": "River Flows In You",
+  "artist": "Yiruma",
+  "language": "English",
+  "mood": "Sleep",
+  "genre": "Piano",
+  "duration": "3:50",
+  "spotify": "https://open.spotify.com/search/River%20Flows%20In%20You%20Yiruma",
+  "youtube": "https://www.youtube.com/watch?v=7maJOI3QMu0"
+},
+
+{
+  "title": "Clair de Lune",
+  "artist": "Claude Debussy",
+  "language": "English (Instrumental)",
+  "mood": "Sleep",
+  "genre": "Classical",
+  "duration": "5:00",
+  "spotify": "https://open.spotify.com/search/Clair%20de%20Lune%20Debussy",
+  "youtube": "https://www.youtube.com/results?search_query=Claude+Debussy+Clair+de+Lune+official"
+},
+
+
+{
+  "title": "Lovely",
+  "artist": "Billie Eilish, Khalid",
+  "language": "English",
+  "mood": "Rainy",
+  "genre": "Emotional",
+  "duration": "3:20",
+  "spotify": "https://open.spotify.com/track/0u2P5u6lvoDfwTYjAADbn4",
+  "youtube": "https://www.youtube.com/watch?v=V1Pl8CzNzCw"
+},
+
+{
+  "title": "Mazhai Kuruvi",
+  "artist": "A.R. Rahman",
+  "language": "Tamil",
+  "mood": "Rainy",
+  "genre": "Melody",
+  "duration": "5:45",
+  "spotify": "https://open.spotify.com/search/Mazhai%20Kuruvi%20A%20R%20Rahman",
+  "youtube": "https://www.youtube.com/results?search_query=Mazhai+Kuruvi+AR+Rahman+official"
+},
+
+{
+  "title": "The Night We Met",
+  "artist": "Lord Huron",
+  "language": "English",
+  "mood": "Rainy",
+  "genre": "Indie",
+  "duration": "3:28",
+  "spotify": "https://open.spotify.com/track/3hRV0jL3vUpRrcy398teAU",
+  "youtube": "https://www.youtube.com/watch?v=wGF7PswOENQ"
+},
+
+{
+  "title": "Pookkal Pookkum",
+  "artist": "G.V. Prakash Kumar",
+  "language": "Tamil",
+  "mood": "Rainy",
+  "genre": "Melody",
+  "duration": "6:36",
+  "spotify": "https://open.spotify.com/search/Pookkal%20Pookkum",
+  "youtube": "https://www.youtube.com/results?search_query=Pookkal+Pookkum+official"
+},
+
+
+
+{
+  "title": "Good Life",
+  "artist": "OneRepublic",
+  "language": "English",
+  "mood": "Morning",
+  "genre": "Pop",
+  "duration": "4:13",
+  "spotify": "https://open.spotify.com/track/5fVZC9GiMCA0C3nT6a8s4e",
+  "youtube": "https://www.youtube.com/watch?v=jZhQOvvV45w"
+},
+
+{
+  "title": "Vaan Varuvaan",
+  "artist": "A.R. Rahman",
+  "language": "Tamil",
+  "mood": "Morning",
+  "genre": "Feel Good",
+  "duration": "4:32",
+  "spotify": "https://open.spotify.com/search/Vaan%20Varuvaan%20A%20R%20Rahman",
+  "youtube": "https://www.youtube.com/results?search_query=Vaan+Varuvaan+AR+Rahman+official"
+},
+
+{
+  "title": "Beautiful Day",
+  "artist": "U2",
+  "language": "English",
+  "mood": "Morning",
+  "genre": "Rock",
+  "duration": "4:08",
+  "spotify": "https://open.spotify.com/track/1VuE8r4m7d8J1pQ9R7nW4Q",
+  "youtube": "https://www.youtube.com/watch?v=co6WMzDOh1o"
+},
+
+{
+  "title": "Aaromale",
+  "artist": "Alphons Joseph",
+  "language": "Malayalam",
+  "mood": "Morning",
+  "genre": "Melody",
+  "duration": "5:27",
+  "spotify": "https://open.spotify.com/search/Aaromale%20Alphons%20Joseph",
+  "youtube": "https://www.youtube.com/results?search_query=Aaromale+Alphons+Joseph+official"
+},
+
+
+{
+  "title": "Night Changes",
+  "artist": "One Direction",
+  "language": "English",
+  "mood": "Night",
+  "genre": "Pop",
+  "duration": "3:46",
+  "spotify": "https://open.spotify.com/track/5O2P9iiztwhomNh8xkR9lJ",
+  "youtube": "https://www.youtube.com/watch?v=syFZfO_wfMQ"
+},
+
+{
+  "title": "New York Nagaram",
+  "artist": "A.R. Rahman",
+  "language": "Tamil",
+  "mood": "Night",
+  "genre": "Melody",
+  "duration": "6:17",
+  "spotify": "https://open.spotify.com/search/New%20York%20Nagaram%20A%20R%20Rahman",
+  "youtube": "https://www.youtube.com/results?search_query=New+York+Nagaram+AR+Rahman+official"
+},
+
+{
+  "title": "Lovely",
+  "artist": "Billie Eilish, Khalid",
+  "language": "English",
+  "mood": "Night",
+  "genre": "Chill",
+  "duration": "3:20",
+  "spotify": "https://open.spotify.com/track/0u2P5u6lvoDfwTYjAADbn4",
+  "youtube": "https://www.youtube.com/watch?v=V1Pl8CzNzCw"
+},
+
+{
+  "title": "Pavizha Mazha",
+  "artist": "K.S. Harisankar",
+  "language": "Malayalam",
+  "mood": "Night",
+  "genre": "Melody",
+  "duration": "3:52",
+  "spotify": "https://open.spotify.com/search/Pavizha%20Mazha%20KS%20Harisankar",
+  "youtube": "https://www.youtube.com/results?search_query=Pavizha+Mazha+KS+Harisankar+official"
+},
+
+
+{
+  "title": "Uptown Funk",
+  "artist": "Mark Ronson ft. Bruno Mars",
+  "language": "English",
+  "mood": "Party",
+  "genre": "Dance",
+  "duration": "4:30",
+  "spotify": "https://open.spotify.com/track/32OlwWuMpZ6b0aN2RZOeMS",
+  "youtube": "https://www.youtube.com/watch?v=OPf0YbXqDm0"
+},
+
+{
+  "title": "Arabic Kuthu",
+  "artist": "Anirudh Ravichander",
+  "language": "Tamil",
+  "mood": "Party",
+  "genre": "Dance",
+  "duration": "4:12",
+  "spotify": "https://open.spotify.com/search/Arabic%20Kuthu%20Anirudh",
+  "youtube": "https://www.youtube.com/watch?v=KUN5Uf9mObQ"
+},
+
+{
+  "title": "Rowdy Baby",
+  "artist": "Dhanush, Dhee",
+  "language": "Tamil",
+  "mood": "Party",
+  "genre": "Dance",
+  "duration": "4:20",
+  "spotify": "https://open.spotify.com/search/Rowdy%20Baby%20Dhanush%20Dhee",
+  "youtube": "https://www.youtube.com/watch?v=x6Q7c9RyMzk"
+},
+
+{
+  "title": "Ramuloo Ramulaa",
+  "artist": "Anurag Kulkarni",
+  "language": "Telugu",
+  "mood": "Party",
+  "genre": "Folk Dance",
+  "duration": "4:05",
+  "spotify": "https://open.spotify.com/search/Ramuloo%20Ramulaa%20Anurag%20Kulkarni",
+  "youtube": "https://www.youtube.com/watch?v=3NoKAOTE_ZI"
+},
+
+{
+  "title": "Jimikki Kammal",
+  "artist": "Vineeth Sreenivasan",
+  "language": "Malayalam",
+  "mood": "Party",
+  "genre": "Folk",
+  "duration": "3:58",
+  "spotify": "https://open.spotify.com/search/Jimikki%20Kammal%20Vineeth%20Sreenivasan",
+  "youtube": "https://www.youtube.com/results?search_query=Jimikki+Kammal+official+video"
+},
+
+
+
+{
+  "title": "Let Her Go",
+  "artist": "Passenger",
+  "language": "English",
+  "mood": "Heartbreak",
+  "genre": "Acoustic",
+  "duration": "4:12",
+  "spotify": "https://open.spotify.com/track/2jyjhRbkmM3zW8wZB3SxTg",
+  "youtube": "https://www.youtube.com/watch?v=RBumgq5yVrA"
+},
+
+{
+  "title": "Maruvaarthai",
+  "artist": "Sid Sriram",
+  "language": "Tamil",
+  "mood": "Heartbreak",
+  "genre": "Melody",
+  "duration": "5:56",
+  "spotify": "https://open.spotify.com/search/Maruvaarthai%20Sid%20Sriram",
+  "youtube": "https://www.youtube.com/results?search_query=Maruvaarthai+Sid+Sriram+official"
+},
+
+{
+  "title": "Someone You Loved",
+  "artist": "Lewis Capaldi",
+  "language": "English",
+  "mood": "Heartbreak",
+  "genre": "Pop",
+  "duration": "3:02",
+  "spotify": "https://open.spotify.com/track/7qEHsqek33rTcFNT9PFqLf",
+  "youtube": "https://www.youtube.com/watch?v=zABLecsR5UE"
+},
+
+{
+  "title": "Thalli Pogathey",
+  "artist": "A.R. Rahman",
+  "language": "Tamil",
+  "mood": "Heartbreak",
+  "genre": "Melody",
+  "duration": "4:27",
+  "spotify": "https://open.spotify.com/search/Thalli%20Pogathey%20AR%20Rahman",
+  "youtube": "https://www.youtube.com/results?search_query=Thalli+Pogathey+official"
+},
+
+{
+  "title": "Adiga Adiga",
+  "artist": "Sid Sriram",
+  "language": "Telugu",
+  "mood": "Heartbreak",
+  "genre": "Romantic",
+  "duration": "3:30",
+  "spotify": "https://open.spotify.com/search/Adiga%20Adiga%20Sid%20Sriram",
+  "youtube": "https://www.youtube.com/results?search_query=Adiga+Adiga+Sid+Sriram+official"
+},
+
+
+{
+  "title": "Experience",
+  "artist": "Ludovico Einaudi",
+  "language": "English",
+  "mood": "Meditation",
+  "genre": "Classical",
+  "duration": "5:15",
+  "spotify": "https://open.spotify.com/search/Experience%20Ludovico%20Einaudi",
+  "youtube": "https://www.youtube.com/watch?v=hN_q-_nGv4U"
+},
+
+{
+  "title": "Kurai Ondrum Illai",
+  "artist": "M.S. Subbulakshmi",
+  "language": "Tamil",
+  "mood": "Meditation",
+  "genre": "Devotional",
+  "duration": "4:20",
+  "spotify": "https://open.spotify.com/search/Kurai%20Ondrum%20Illai%20MS%20Subbulakshmi",
+  "youtube": "https://www.youtube.com/results?search_query=Kurai+Ondrum+Illai+MS+Subbulakshmi+official"
+},
+
+{
+  "title": "River Flows In You",
+  "artist": "Yiruma",
+  "language": "English",
+  "mood": "Meditation",
+  "genre": "Piano",
+  "duration": "3:50",
+  "spotify": "https://open.spotify.com/search/River%20Flows%20In%20You%20Yiruma",
+  "youtube": "https://www.youtube.com/watch?v=7maJOI3QMu0"
+},
+
+{
+  "title": "Comptine d'un autre été",
+  "artist": "Yann Tiersen",
+  "language": "English",
+  "mood": "Meditation",
+  "genre": "Piano",
+  "duration": "2:20",
+  "spotify": "https://open.spotify.com/search/Comptine%20d%27un%20autre%20ete%20Yann%20Tiersen",
+  "youtube": "https://www.youtube.com/results?search_query=Comptine+d%27un+autre+ete+Yann+Tiersen"
+},
+
+
+
+{
+  "title": "On Top Of The World",
+  "artist": "Imagine Dragons",
+  "language": "English",
+  "mood": "Road Trip",
+  "genre": "Pop Rock",
+  "duration": "3:12",
+  "spotify": "https://open.spotify.com/track/6KuQTIu1KoTTkLXKrTfQ3K",
+  "youtube": "https://www.youtube.com/watch?v=w5tWYmIOWGk"
+},
+
+{
+  "title": "Ilaya Nila",
+  "artist": "S.P. Balasubrahmanyam",
+  "language": "Tamil",
+  "mood": "Road Trip",
+  "genre": "Melody",
+  "duration": "4:36",
+  "spotify": "https://open.spotify.com/search/Ilaya%20Nila%20SPB",
+  "youtube": "https://www.youtube.com/results?search_query=Ilaya+Nila+SPB+official"
+},
+
+{
+  "title": "Life Is Highway",
+  "artist": "Rascal Flatts",
+  "language": "English",
+  "mood": "Road Trip",
+  "genre": "Country",
+  "duration": "4:36",
+  "spotify": "https://open.spotify.com/search/Life%20Is%20Highway%20Rascal%20Flatts",
+  "youtube": "https://www.youtube.com/watch?v=5tXh_MfrMe0"
+},
+
+{
+  "title": "Journey Song",
+  "artist": "Govind Vasantha",
+  "language": "Tamil",
+  "mood": "Road Trip",
+  "genre": "Travel",
+  "duration": "4:21",
+  "spotify": "https://open.spotify.com/track/3egkGzG6sEjLNpwzsa5mmb?si=fd20feda0015496d",
+  "youtube": "https://www.youtube.com/results?search_query=Journey+Song+Govind+Vasantha+official"
+},
+
+
+
+
+{
+  "title": "River Flows In You",
+  "artist": "Yiruma",
+  "language": "English",
+  "mood": "Study",
+  "genre": "Piano",
+  "duration": "3:50",
+  "spotify": "https://open.spotify.com/track/2agBDIr9MYDUducQPC1sFU?si=d03acb89266048bb",
+  "youtube": "https://youtu.be/7maJOI3QMu0?si=R2WwyTxPN7XHkvSn"
+},
+
+{
+  "title": "Experience",
+  "artist": "Ludovico Einaudi",
+  "language": "English",
+  "mood": "Study",
+  "genre": "Classical",
+  "duration": "5:15",
+  "spotify": "https://open.spotify.com/track/1BncfTJAWxrsxyT9culBrj?si=c999a3f6044e4382",
+  "youtube": "https://youtu.be/eUDVUZZyA0M?si=_fbahio0WeS3farw"
+},
+
+{
+  "title": "Jada Jada Jaada",
+  "artist": "D.Imman",
+  "language": "Tamil",
+  "mood": "Study",
+  "genre": "Motivating",
+  "duration": "4:07",
+  "spotify": "https://open.spotify.com/track/6m3elebMVQuKMk4U72ggTk?si=616a5dad04fa4c8a",
+  "youtube": "https://www.youtube.com/results?search_query=Jada+Jada+Jaada+D.Imman+official"
+},
+
+{
+  "title": "Samajavaragamana",
+  "artist": "Sid Sriram",
+  "language": "Telugu",
+  "mood": "Study",
+  "genre": "Melody",
+  "duration": "3:39",
+  "spotify": "https://open.spotify.com/track/3j9DrRebdWK1jkpOw9FZUy?si=fe2c8b633bed410b",
+  "youtube": "https://www.youtube.com/results?search_query=Samajavaragamana+official"
+},
+
+{
+  "title": "Poomaaram",
+  "artist": "Faizal Razi",
+  "language": "Malayalam",
+  "mood": "Study",
+  "genre": "Melody",
+  "duration": "3:22",
+  "spotify": "https://open.spotify.com/track/6WwyJN6PQ0ptirc0dU4RZM?si=f94a72fbe2ed466f",
+  "youtube": "https://www.youtube.com/results?search_query=Poomaaram+Faizal+Razi+official"
+},
+
+
+{
+  "title": "Warriors",
+  "artist": "Imagine Dragons",
+  "language": "English",
+  "mood": "Gaming",
+  "genre": "Epic",
+  "duration": "2:50",
+  "spotify": "https://open.spotify.com/search/Warriors%20Imagine%20Dragons",
+  "youtube": "https://www.youtube.com/results?search_query=Warriors+Imagine+Dragons+official"
+},
+
+{
+  "title": "Enemy",
+  "artist": "Imagine Dragons",
+  "language": "English",
+  "mood": "Gaming",
+  "genre": "Alternative",
+  "duration": "2:53",
+  "spotify": "https://open.spotify.com/search/Enemy%20Imagine%20Dragons",
+  "youtube": "https://www.youtube.com/results?search_query=Enemy+Imagine+Dragons+official"
+},
+
+{
+  "title": "Vikram Title Track",
+  "artist": "Anirudh Ravichander",
+  "language": "Tamil",
+  "mood": "Gaming",
+  "genre": "Mass",
+  "duration": "3:31",
+  "spotify": "https://open.spotify.com/track/1BncfTJAWxrsxyT9culBrj",
+  "youtube": "https://www.youtube.com/results?search_query=Vikram+Title+Track+Anirudh+official"
+},
+
+{
+  "title": "Dosti",
+  "artist": "Amit Trivedi",
+  "language": "Telugu",
+  "mood": "Gaming",
+  "genre": "Epic",
+  "duration": "4:05",
+  "spotify": "https://open.spotify.com/search/Dosti%20RRR%20Amit%20Trivedi",
+  "youtube": "https://www.youtube.com/results?search_query=Dosti+RRR+official"
+},
+
+{
+  "title": "Aarambhame",
+  "artist": "Various Artists",
+  "language": "Malayalam",
+  "mood": "Gaming",
+  "genre": "Epic",
+  "duration": "3:45",
+  "spotify": "https://open.spotify.com/search/Aarambhame%20Malayalam",
+  "youtube": "https://www.youtube.com/results?search_query=Aarambhame+Malayalam+song+official"
+},
+
+
+{
+  "title": "Yellow",
+  "artist": "Coldplay",
+  "language": "English",
+  "mood": "Relaxed",
+  "genre": "Alternative",
+  "duration": "4:26",
+  "spotify": "https://open.spotify.com/search/Yellow%20Coldplay",
+  "youtube": "https://www.youtube.com/results?search_query=Yellow+Coldplay+official"
+},
+
+{
+  "title": "Kadhaippoma",
+  "artist": "Leon James",
+  "language": "Tamil",
+  "mood": "Relaxed",
+  "genre": "Melody",
+  "duration": "4:42",
+  "spotify": "https://open.spotify.com/search/Kadhaippoma%20Leon%20James",
+  "youtube": "https://www.youtube.com/results?search_query=Kadhaippoma+Leon+James+official"
+},
+
+{
+  "title": "Until I Found You",
+  "artist": "Stephen Sanchez",
+  "language": "English",
+  "mood": "Romantic",
+  "genre": "Vintage Pop",
+  "duration": "2:57",
+  "spotify": "https://open.spotify.com/search/Until%20I%20Found%20You%20Stephen%20Sanchez",
+  "youtube": "https://www.youtube.com/results?search_query=Until+I+Found+You+Stephen+Sanchez+official"
+},
+
+
+
+{
+  "title": "A Sky Full Of Stars",
+  "artist": "Coldplay",
+  "language": "English",
+  "mood": "Happy",
+  "genre": "Pop",
+  "duration": "4:28",
+  "spotify": "https://open.spotify.com/search/A%20Sky%20Full%20Of%20Stars%20Coldplay",
+  "youtube": "https://www.youtube.com/results?search_query=A+Sky+Full+Of+Stars+Coldplay+official"
+},
+
+{
+  "title": "Chellamma",
+  "artist": "Anirudh Ravichander",
+  "language": "Tamil",
+  "mood": "Happy",
+  "genre": "Dance",
+  "duration": "4:07",
+  "spotify": "https://open.spotify.com/search/Chellamma%20Anirudh",
+  "youtube": "https://www.youtube.com/results?search_query=Chellamma+Anirudh+official"
+},
+
+{
+  "title": "Samajavaragamana",
+  "artist": "Sid Sriram",
+  "language": "Telugu",
+  "mood": "Relaxed",
+  "genre": "Melody",
+  "duration": "3:39",
+  "spotify": "https://open.spotify.com/search/Samajavaragamana%20Sid%20Sriram",
+  "youtube": "https://www.youtube.com/results?search_query=Samajavaragamana+official"
+},
+
+{
+  "title": "Darshana",
+  "artist": "Hesham Abdul Wahab",
+  "language": "Malayalam",
+  "mood": "Romantic",
+  "genre": "Melody",
+  "duration": "3:45",
+  "spotify": "https://open.spotify.com/search/Darshana%20Hesham%20Abdul%20Wahab",
+  "youtube": "https://www.youtube.com/results?search_query=Darshana+Hesham+Abdul+Wahab+official"
+},
+
+
+
+{
+  "title": "Stronger",
+  "artist": "Kanye West",
+  "language": "English",
+  "mood": "Motivated",
+  "genre": "Hip Hop",
+  "duration": "5:11",
+  "spotify": "https://open.spotify.com/search/Stronger%20Kanye%20West",
+  "youtube": "https://www.youtube.com/results?search_query=Stronger+Kanye+West+official"
+},
+
+{
+  "title": "Whatever It Takes",
+  "artist": "Imagine Dragons",
+  "language": "English",
+  "mood": "Motivated",
+  "genre": "Rock",
+  "duration": "3:21",
+  "spotify": "https://open.spotify.com/search/Whatever%20It%20Takes%20Imagine%20Dragons",
+  "youtube": "https://www.youtube.com/results?search_query=Whatever+It+Takes+Imagine+Dragons+official"
+},
+
+{
+  "title": "Aalaporan Tamizhan",
+  "artist": "A.R. Rahman",
+  "language": "Tamil",
+  "mood": "Motivated",
+  "genre": "Folk",
+  "duration": "5:48",
+  "spotify": "https://open.spotify.com/search/Aalaporan%20Tamizhan",
+  "youtube": "https://www.youtube.com/results?search_query=Aalaporan+Tamizhan+official"
+}
+]
