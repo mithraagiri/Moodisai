@@ -1,4 +1,4 @@
-const API_URL = "http://192.168.1.10:8000";
+const API_URL = "https://moodmuse-backend-npfm.onrender.com";
 export async function getSongs() {
 
   const response = await fetch(`${API_URL}/songs`);
