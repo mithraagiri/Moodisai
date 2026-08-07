@@ -1,4 +1,4 @@
-# 🎵 MoodMuse
+# 🎵 Moodisai
 
 ### Music that matches your mood.
 
