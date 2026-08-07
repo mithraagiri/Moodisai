@@ -4,7 +4,7 @@ import json
 
 app = FastAPI(
     title="MoodMuse API",
-    description="AI powered music recommendation backend",
+    description="Music recommendation backend",
     version="1.0"
 )
 
