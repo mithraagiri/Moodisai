@@ -1,6 +1,4 @@
 const API_URL = "http://192.168.1.10:8000";
-
-
 export async function getSongs() {
 
   const response = await fetch(`${API_URL}/songs`);

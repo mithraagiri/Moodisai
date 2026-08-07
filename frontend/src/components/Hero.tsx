@@ -1,391 +1,687 @@
 import { useTheme } from "../context/ThemeContext";
-
-function Hero() {
+type HeroProps = {
+  openChat: () => void;
+  findSong: () => void;
+  exploreMoods: () => void;
+};
+function Hero({
+  openChat,
+  findSong,
+  exploreMoods,
+}: HeroProps) {
   const { theme } = useTheme();
-
   const isDark = theme === "dark";
-
-
   return (
-    <section
-      className="
-      relative
-      flex
-      min-h-[90vh]
-      items-center
-      justify-center
-      overflow-hidden
-      px-6
-      "
-    >
-
-
-      {/* Background Aura */}
-
-      <div
-        className="
-        absolute
-        left-[-150px]
-        top-[-150px]
-        h-[500px]
-        w-[500px]
-        rounded-full
-        bg-cyan-500/20
-        blur-[160px]
-        "
-      />
-
-
-
-      <div
-        className="
-        absolute
-        right-[-150px]
-        bottom-[-150px]
-        h-[500px]
-        w-[500px]
-        rounded-full
-        bg-teal-400/15
-        blur-[160px]
-        "
-      />
-
-
-
-      <div
-        className="
-        absolute
-        left-1/2
-        top-1/2
-        h-[600px]
-        w-[600px]
-        -translate-x-1/2
-        -translate-y-1/2
-        rounded-full
-        bg-cyan-400/10
-        blur-[180px]
-        "
-      />
-
-
-
-
-
-      {/* AI Floating Elements */}
-
-      <div
-        className="
-        absolute
-        left-[15%]
-        top-[25%]
-        h-3
-        w-3
-        animate-pulse
-        rounded-full
-        bg-cyan-400
-        shadow-[0_0_25px_rgba(34,211,238,0.8)]
-        "
-      />
-
-      <div
-        className="
-        absolute
-        right-[18%]
-        top-[35%]
-        h-2
-        w-2
-        animate-ping
-        rounded-full
-        bg-teal-400
-        "
-      />
 
-      <div
-        className="
-        absolute
-        bottom-[20%]
-        left-[25%]
-        h-2
-        w-2
-        animate-pulse
-        rounded-full
-        bg-cyan-300
-        "
-      />
 
+<section
 
+className="
+relative
+flex
+min-h-[92vh]
+items-center
+justify-center
+overflow-hidden
+px-4
+py-14
+sm:px-6
+sm:py-20
+"
 
+>
 
 
-      <div className="relative z-10 mx-auto max-w-5xl text-center">
 
 
 
-        {/* Badge */}
+{/* Background Glow */}
 
-        <div
-          className="
-          inline-flex
-          items-center
-          gap-3
-          rounded-full
-          border
-          border-cyan-400/30
-          bg-cyan-400/10
-          px-6
-          py-3
-          backdrop-blur-xl
-          "
-        >
 
-          <span>
-            ✨
-          </span>
+<div
 
+className="
+absolute
+-left-40
+-top-40
+h-[350px]
+w-[350px]
+sm:h-[550px]
+sm:w-[550px]
+rounded-full
+bg-cyan-500/20
+blur-[170px]
+"
 
-          <span className="text-sm font-medium tracking-wide text-cyan-400">
-            AI-Powered Music Discovery
-          </span>
+/>
 
 
-        </div>
 
+<div
 
+className="
+absolute
+-bottom-40
+-right-40
+h-[380px]
+w-[380px]
+sm:h-[600px]
+sm:w-[600px]
+rounded-full
+bg-teal-400/20
+blur-[180px]
+"
 
+/>
 
 
-        {/* Heading */}
 
-        <h1
-          className={`
-          mt-10
-          text-6xl
-          font-black
-          leading-[1.05]
-          transition-colors
-          duration-500
-          md:text-8xl
 
-          ${
-            isDark
-              ? "text-white"
-              : "text-gray-900"
-          }
-          `}
-        >
 
-          Discover Music
 
-          <br />
 
+{/* Floating particles */}
 
-          <span
-            className="
-            bg-gradient-to-r
-            from-cyan-400
-            via-teal-400
-            to-cyan-600
-            bg-clip-text
-            text-transparent
-            "
-          >
-            That Matches Your Mood
-          </span>
 
+<div
 
-        </h1>
+className="
+absolute
+left-[18%]
+top-[22%]
+h-3
+w-3
+animate-pulse
+rounded-full
+bg-cyan-400
+"
 
+/>
 
 
+<div
 
+className="
+absolute
+right-[20%]
+top-[30%]
+h-2
+w-2
+animate-ping
+rounded-full
+bg-teal-400
+"
 
-        {/* Description */}
+/>
 
-        <p
-          className={`
-          mx-auto
-          mt-8
-          max-w-2xl
-          text-lg
-          leading-8
-          transition-colors
-          duration-500
-          md:text-xl
 
-          ${
-            isDark
-              ? "text-neutral-400"
-              : "text-gray-600"
-          }
-          `}
-        >
 
-          MoodMuse understands the emotion behind your words and discovers
-          songs that match your current feeling, language and vibe.
-          Experience personalized music powered by AI.
 
-        </p>
 
 
+<div
 
+className="
+relative
+z-10
+mx-auto
+max-w-6xl
+"
 
+>
 
 
+<div
 
-        {/* Buttons */}
+className="
+grid
+items-center
+gap-10
+lg:grid-cols-2
+lg:gap-14
+"
 
-        <div
-          className="
-          mt-12
-          flex
-          flex-col
-          items-center
-          justify-center
-          gap-5
-          sm:flex-row
-          "
-        >
+>
 
 
-          <button
-            onClick={() =>
-              document
-                .getElementById("ai-search")
-                ?.scrollIntoView({
-                  behavior: "smooth",
-                })
-            }
 
-            className="
-            rounded-full
-            bg-cyan-400
-            px-9
-            py-4
-            text-lg
-            font-semibold
-            text-black
-            transition-all
-            duration-300
-            hover:scale-105
-            hover:bg-cyan-300
-            hover:shadow-[0_0_35px_rgba(34,211,238,0.35)]
-            "
-          >
-            🎵 Start Listening
-          </button>
 
 
 
+{/* LEFT CONTENT */}
 
 
-          <button
-            onClick={() =>
-              document
-                .getElementById("moods")
-                ?.scrollIntoView({
-                  behavior: "smooth",
-                })
-            }
 
-            className={`
-            rounded-full
-            px-9
-            py-4
-            text-lg
-            font-semibold
-            backdrop-blur-md
-            transition-all
+<div
 
-            ${
-              isDark
-                ? `
-                border border-white/10
-                bg-white/5
-                text-white
-                hover:border-cyan-400
-                hover:text-cyan-300
-                `
-                :
-                `
-                border border-gray-300
-                bg-white
-                text-gray-800
-                hover:border-cyan-400
-                hover:text-cyan-500
-                `
-            }
-            `}
-          >
+className="
+text-center
+lg:text-left
+"
 
-            Explore Moods →
+>
 
-          </button>
 
 
-        </div>
+<div
 
+className="
+inline-flex
+items-center
+gap-3
+rounded-full
+border
+border-cyan-400/30
+bg-cyan-400/10
+px-5
+py-3
+"
 
+>
 
+✨
 
 
+<span
 
+className="
+text-sm
+font-medium
+tracking-wide
+text-cyan-400
+"
 
-        {/* Stats */}
+>
 
-        <div
-          className="
-          mt-16
-          flex
-          flex-wrap
-          justify-center
-          gap-12
-          text-center
-          "
-        >
+AI-Powered Music Discovery
 
+</span>
 
-          {[
-            ["16+", "Mood Categories"],
-            ["1000+", "Songs Curated"],
-            ["AI", "Smart Recommendations"],
-          ].map(([number, label]) => (
 
-            <div key={label}>
+</div>
 
-              <h3 className="text-3xl font-bold text-cyan-400">
-                {number}
-              </h3>
 
 
-              <p
-                className={`
-                mt-2
 
-                ${
-                  isDark
-                    ? "text-neutral-400"
-                    : "text-gray-600"
-                }
-                `}
-              >
-                {label}
-              </p>
 
 
-            </div>
 
-          ))}
 
+<h1
 
-        </div>
+className={`
 
+mt-8
+text-4xl
+font-black
+leading-tight
+sm:text-5xl
+md:text-7xl
 
 
-      </div>
-
-
-    </section>
-  );
+${
+isDark
+?
+"text-white"
+:
+"text-gray-900"
 }
+
+`}
+
+>
+
+Music That
+
+<br/>
+
+Understands
+
+<br/>
+
+
+<span
+
+className="
+bg-gradient-to-r
+from-cyan-400
+via-teal-400
+to-cyan-600
+bg-clip-text
+text-transparent
+"
+
+>
+
+Your Mood
+
+</span>
+
+
+
+</h1>
+
+
+
+
+
+
+
+
+<p
+
+className={`
+
+mt-7
+max-w-xl
+mx-auto
+lg:mx-0
+text-lg
+leading-8
+
+
+${
+isDark
+?
+"text-neutral-400"
+:
+"text-gray-600"
+}
+
+`}
+
+>
+
+MoodMuse uses AI to understand your emotions and recommends songs that match your feelings, language and personal vibe.
+
+</p>
+
+
+
+
+
+
+
+
+
+{/* BUTTONS */}
+
+
+
+<div
+
+className="
+mt-10
+flex
+flex-col
+sm:flex-row
+flex-wrap
+justify-center
+gap-3
+lg:justify-start
+"
+
+>
+
+
+
+
+
+
+<button
+
+onClick={findSong}
+
+className="
+h-14
+rounded-full
+bg-cyan-400
+px-6
+font-bold
+text-black
+transition-transform
+duration-200
+hover:scale-105
+hover:bg-cyan-300
+"
+
+>
+
+🎵 Find My Song
+
+</button>
+
+
+
+
+
+
+
+<button
+
+onClick={openChat}
+
+className="
+h-14
+rounded-full
+bg-gradient-to-r
+from-teal-400
+to-cyan-400
+px-6
+font-bold
+text-black
+transition-transform
+duration-200
+hover:scale-105
+"
+
+>
+
+🤖 Talk with Mia
+
+</button>
+
+
+
+
+
+
+
+<button
+
+onClick={exploreMoods}
+
+className={`
+
+h-14
+rounded-full
+border
+px-6
+font-semibold
+transition-transform
+duration-200
+hover:scale-105
+
+
+${
+isDark
+?
+"border-white/20 bg-white/5 text-white"
+:
+"border-gray-300 bg-white text-gray-900"
+}
+
+`}
+
+>
+
+Explore Moods →
+
+</button>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+{/* STATS */}
+
+
+
+<div
+
+className="
+mt-14
+flex
+flex-wrap
+justify-center
+gap-10
+lg:justify-start
+"
+
+>
+
+
+{
+[
+["16+","Mood Types"],
+["1000+","Songs"],
+["AI","Smart Picks"]
+
+].map(([number,text])=>(
+
+
+<div key={text}>
+
+
+<h3
+
+className="
+text-3xl
+font-black
+text-cyan-400
+"
+
+>
+
+{number}
+
+</h3>
+
+
+
+<p
+
+className={`
+
+mt-1
+text-sm
+
+${
+isDark
+?
+"text-neutral-400"
+:
+"text-gray-600"
+}
+
+`}
+
+>
+
+{text}
+
+</p>
+
+
+
+</div>
+
+
+))
+
+}
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+{/* RIGHT AI CARD */}
+
+
+
+
+<div
+
+className="
+hidden
+justify-center
+md:flex
+lg:flex
+"
+
+>
+
+
+<div
+
+className={`
+
+relative
+h-[380px]
+w-[300px]
+sm:h-[430px]
+sm:w-[330px]
+rounded-[35px]
+border
+p-6
+shadow-2xl
+
+
+${
+isDark
+?
+"border-white/10 bg-white/5"
+:
+"border-gray-200 bg-white"
+}
+
+`}
+
+>
+
+
+
+<p className="text-cyan-400 font-semibold">
+
+🤖 MoodMuse AI
+
+</p>
+
+
+
+
+
+<div
+
+className={`
+
+mt-8
+rounded-3xl
+p-5
+
+${
+isDark
+?
+"bg-black/30"
+:
+"bg-gray-100"
+}
+
+`}
+
+>
+
+<p className="text-sm text-gray-400">
+
+Current mood detected
+
+</p>
+
+
+<h2 className="mt-3 text-4xl font-bold">
+
+😌 Calm
+
+</h2>
+
+
+</div>
+
+
+
+
+
+
+
+<div
+
+className="
+mt-6
+rounded-3xl
+border
+border-cyan-400/20
+bg-cyan-400/10
+p-5
+"
+
+>
+
+
+<p className="text-cyan-400">
+
+AI Recommendation
+
+</p>
+
+
+
+<p className="mt-3 font-semibold">
+
+🎧 Perfect songs selected for your vibe
+
+</p>
+
+
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+</section>
+
+
+  );
+
+}
+
+
 
 export default Hero;

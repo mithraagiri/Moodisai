@@ -159,7 +159,7 @@ function Footer() {
           }
           `}
         >
-          © 2026 MoodMuse • Made with ❤️ by Mithraa
+          © 2026 MoodMuse • Made by Mithraa 💕
         </p>
 
 
