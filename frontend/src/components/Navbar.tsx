@@ -83,7 +83,7 @@ className="
 >
 
 <img
-src="/moodlogo.PNG"
+src="/moodlogo.png"
 alt="Moodisai Logo"
 className="
             h-11
@@ -132,7 +132,7 @@ ${
 
             `}
 >
-              ♫၊၊||၊၊၊||၊♫
+             Moodisai♫
 </p>
 
 
