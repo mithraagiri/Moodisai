@@ -64,7 +64,7 @@ sender:"mia",
 text:
 `👋 Hi, I'm Mia.
 
-I'm your AI music companion.
+I'm your music companion.
 
 Tell me what's on your mind...
 
@@ -338,7 +338,7 @@ text-black
 
 >
 
-🎧 Mia • MoodMuse AI
+🎧 Mia • Moodisai
 
 </div>
 

@@ -34,16 +34,16 @@ function MoodSection({
 }: MoodSectionProps) {
 
 
-  const { theme } = useTheme();
+const { theme } = useTheme();
 
-  const isDark = theme === "dark";
+const isDark = theme === "dark";
 
 
 
-  return (
+return (
 
-    <section
-    className="
+<section
+className="
     relative
     mx-auto
     max-w-7xl
@@ -51,15 +51,15 @@ function MoodSection({
     px-6
     py-28
     "
-    >
+>
 
 
 
 
-      {/* Background Glow */}
+{/* Background Glow */}
 
-      <div
-      className="
+<div
+className="
       absolute
       left-1/2
       top-20
@@ -70,7 +70,7 @@ function MoodSection({
       bg-cyan-400/10
       blur-[120px]
       "
-      />
+/>
 
 
 
@@ -78,19 +78,19 @@ function MoodSection({
 
 
 
-      {/* Heading */}
+{/* Heading */}
 
 
-      <div
-      className="
+<div
+className="
       relative
       text-center
       "
-      >
+>
 
 
-        <div
-        className="
+<div
+className="
         inline-flex
         items-center
         gap-2
@@ -104,39 +104,39 @@ function MoodSection({
         font-medium
         text-cyan-400
         "
-        >
+>
 
-          🎧 16 AI Mood Profiles
+          🎧 16 Mood Profiles
 
-        </div>
-
-
+</div>
 
 
 
-        <h2
-        className={`
+
+
+<h2
+className={`
         mt-6
         text-4xl
         font-black
         md:text-6xl
 
 
-        ${
+${
           isDark
           ?
-          "text-white"
+"text-white"
           :
-          "text-gray-900"
-        }
+"text-gray-900"
+}
 
         `}
-        >
+>
 
           What’s Your
 
-          <span
-          className="
+<span
+className="
           ml-3
           bg-gradient-to-r
           from-cyan-400
@@ -144,20 +144,20 @@ function MoodSection({
           bg-clip-text
           text-transparent
           "
-          >
+>
             Mood?
-          </span>
+</span>
 
 
-        </h2>
-
-
-
+</h2>
 
 
 
-        <p
-        className={`
+
+
+
+<p
+className={`
         mx-auto
         mt-6
         max-w-2xl
@@ -165,39 +165,39 @@ function MoodSection({
         leading-8
 
 
-        ${
+${
           isDark
           ?
-          "text-neutral-400"
+"text-neutral-400"
           :
-          "text-gray-600"
-        }
+"text-gray-600"
+}
 
         `}
-        >
+>
 
-          Choose your current emotion and MoodMuse AI
+          Choose your current emotion and Moodisai
           will discover songs that match your feeling,
           energy and vibe.
 
-        </p>
+</p>
 
 
 
-      </div>
-
-
-
-
+</div>
 
 
 
 
-      {/* Cards */}
 
 
-      <div
-      className="
+
+
+{/* Cards */}
+
+
+<div
+className="
       relative
       mt-16
       grid
@@ -206,51 +206,50 @@ function MoodSection({
       sm:gap-6
       md:grid-cols-4
       "
-      >
+>
 
-        {
+{
           moods.map((mood)=>(
-            
-            <MoodCard
+<MoodCard
 
-            key={mood.title}
+key={mood.title}
 
-            emoji={mood.emoji}
+emoji={mood.emoji}
 
-            title={mood.title}
+title={mood.title}
 
-            selected={
+selected={
               selectedMood === mood.title
-            }
+}
 
-            onClick={() =>
+onClick={() =>
               setSelectedMood(mood.title)
-            }
+}
 
-            />
+/>
 
           ))
-        }
+}
 
 
-      </div>
-
-
-
+</div>
 
 
 
 
 
 
-      {/* Selected Mood Status */}
 
 
-      {
+
+{/* Selected Mood Status */}
+
+
+{
         selectedMood && (
 
-          <div
-          className="
+<div
+className="
           mx-auto
           mt-14
           flex
@@ -267,28 +266,28 @@ function MoodSection({
           text-cyan-300
           backdrop-blur-xl
           "
-          >
+>
 
             ✨ Mood selected:
 
-            <span
-  className={`font-bold ${
+<span
+className={`font-bold ${
     isDark ? "text-white" : "text-gray-900"
-  }`}
+}`}
 >
-  {selectedMood}
+{selectedMood}
 </span>
 
 
-          </div>
+</div>
 
         )
-      }
+}
 
 
 
 
-    </section>
+</section>
 
   );
 }

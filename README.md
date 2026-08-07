@@ -2,9 +2,9 @@
 
 ### Music that matches your mood.
 
-MoodMuse is an AI-powered music companion that recommends songs based on how you feel.
+MoodMuse is a music companion that recommends songs based on how you feel.
 
-What started as a simple Python mood-based recommendation project has evolved into a responsive, full-stack web application with mood-based recommendations, multi-language support, AI insights, music links, an interactive chatbot, and a modern glassmorphism interface.
+What started as a simple Python mood-based recommendation project has evolved into a responsive, full-stack web application with mood-based recommendations, multi-language support, insights, music links, an interactive chatbot, and a modern glassmorphism interface.
 
 🌐 **Live Demo:** https://moodmuse-eight.vercel.app
 💻 **GitHub:** https://github.com/mithraagiri/MoodMuse
@@ -15,7 +15,7 @@ What started as a simple Python mood-based recommendation project has evolved in
 
 MoodMuse combines music, emotions, and technology to create a personalized music discovery experience.
 
-Users can select their mood and preferred language, and MoodMuse finds a suitable song from its curated music library. The recommendation experience includes mood matching, AI-generated insights, song information, and direct Spotify and YouTube links.
+Users can select their mood and preferred language, and MoodMuse finds a suitable song from its curated music library. The recommendation experience includes mood matching, insights, song information, and direct Spotify and YouTube links.
 
 The project began as a simple Python program and gradually evolved into a full-stack web application using React, TypeScript, Tailwind CSS, FastAPI, and REST APIs.
 
@@ -27,8 +27,8 @@ The project began as a simple Python program and gradually evolved into a full-s
 
 * 😊 Mood-based song recommendations
 * 🎯 Mood Match percentage
-* 🤖 AI-powered recommendation experience
-* 💡 MoodMuse AI Insight for each recommendation
+* 🤖 Recommendation experience
+* 💡 MoodMuse Insight for each recommendation
 * 🔄 Find Another Song option
 * 🎲 Randomized song selection
 * 🎵 Song title and artist information
@@ -43,7 +43,7 @@ The project began as a simple Python program and gradually evolved into a full-s
 * 16 different mood categories
 * Interactive mood selection
 * Personalized recommendations based on the selected mood
-* Mood-aware AI responses
+* Mood-aware responses
 * Visual mood experience
 * Animated music visualizer
 
@@ -55,13 +55,13 @@ The project began as a simple Python program and gradually evolved into a full-s
 * 🇮🇳 Malayalam
 * 🌐 All Languages option
 
-## 🤖 Mia — AI Music Companion
+## 🤖 Mia — Music Companion
 
-* 💬 Interactive AI chatbot
+* 💬 Interactive chatbot
 * 🎵 Music-related conversations
 * 😊 Mood-aware responses
 * 🤖 Personalized music suggestions
-* ✨ Friendly AI companion experience
+* ✨ Friendly companion experience
 
 ## 🎨 UI & Experience
 
@@ -228,7 +228,7 @@ Song Library
 Mood + Language Matching
   │
   ▼
-AI Recommendation Experience
+Recommendation Experience
   │
   ├── 🎵 Song
   ├── 🎤 Artist
@@ -236,7 +236,7 @@ AI Recommendation Experience
   ├── 🎼 Genre
   ├── ⏱️ Duration
   ├── 🎯 Mood Match
-  ├── 🤖 AI Insight
+  ├── 🤖 Insight
   └── 🔗 Spotify / YouTube
 ```
 
@@ -375,7 +375,7 @@ Suggested screenshots:
 * 🏠 Home page
 * 🎭 Mood selection
 * 🌎 Language selection
-* 🤖 AI recommendation
+* 🤖 Recommendation
 * 🎯 Mood Match card
 * 💬 Talk with Mia
 * 🎨 Dark mode
@@ -389,7 +389,7 @@ Suggested screenshots:
 
 MoodMuse is still evolving. Future possibilities include:
 
-* 🧠 More advanced AI-powered recommendations
+* 🧠 More advanced recommendations
 * 🎤 Natural-language mood detection
 * 🎵 Larger music library
 * 💾 Mood and recommendation history
@@ -425,7 +425,7 @@ FastAPI
    ↓
 REST APIs
    ↓
-AI Features
+Features
    ↓
 Deployment
 ```

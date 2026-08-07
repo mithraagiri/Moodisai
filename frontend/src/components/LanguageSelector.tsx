@@ -182,7 +182,7 @@ isDark
 
 >
 
-🌐 MoodMuse AI understands music across multiple languages.
+🌐 Moodisai understands music across multiple languages.
 
 </p>
 
@@ -407,7 +407,7 @@ animate-pulse
 />
 
 
-AI Music Engine Ready
+Recommendation Engine Ready
 
 
 </div>

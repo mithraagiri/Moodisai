@@ -2,17 +2,17 @@ import { useState } from "react";
 import { useTheme } from "../context/ThemeContext";
 
 function Navbar() {
-  const { theme, toggleTheme } = useTheme();
+const { theme, toggleTheme } = useTheme();
 
-  const [menuOpen, setMenuOpen] = useState(false);
+const [menuOpen, setMenuOpen] = useState(false);
 
-  const isDark = theme === "dark";
+const isDark = theme === "dark";
 
 
-  const scrollToSection = (id: string) => {
-    const section = document.getElementById(id);
+const scrollToSection = (id: string) => {
+const section = document.getElementById(id);
 
-    if (section) {
+if (section) {
       section.scrollIntoView({
         behavior: "smooth",
       });
@@ -22,10 +22,10 @@ function Navbar() {
   };
 
 
-  return (
+return (
 
-    <header
-      className={`
+<header
+className={`
       sticky
       top-4
       z-50
@@ -36,20 +36,20 @@ function Navbar() {
       transition-all
       duration-300
 
-      ${
+${
         isDark
         ?
-        "border-white/10 bg-black/40 shadow-[0_10px_40px_rgba(0,0,0,0.3)]"
+"border-white/10 bg-black/40 shadow-[0_10px_40px_rgba(0,0,0,0.3)]"
         :
-        "border-gray-200 bg-white/70 shadow-lg"
-      }
+"border-gray-200 bg-white/70 shadow-lg"
+}
 
       `}
-    >
+>
 
 
-      <nav
-      className="
+<nav
+className="
       mx-auto
       flex
       h-18
@@ -59,33 +59,33 @@ function Navbar() {
       px-6
       py-4
       "
-      >
+>
 
 
 
-        {/* Logo */}
+{/* Logo */}
 
 
-        <div
-        onClick={() => scrollToSection("home")}
-        className="
+<div
+onClick={() => scrollToSection("home")}
+className="
         flex
         cursor-pointer
         items-center
         gap-3
         "
-        >
+>
 
-          <div
-          className="
+<div
+className="
           relative
           "
-          >
+>
 
-            <img
-            src="/moodlogo.png"
-            alt="MoodMuse Logo"
-            className="
+<img
+src="/moodlogo.PNG"
+alt="Moodisai Logo"
+className="
             h-11
             w-11
             rounded-xl
@@ -94,11 +94,11 @@ function Navbar() {
             duration-300
             hover:scale-110
             "
-            />
+/>
 
 
-            <span
-            className="
+<span
+className="
             absolute
             -right-1
             -top-1
@@ -108,108 +108,93 @@ function Navbar() {
             bg-cyan-400
             shadow-[0_0_15px_rgba(34,211,238,1)]
             "
-            />
+/>
 
 
-          </div>
+</div>
 
 
 
 
-          <div>
-
-            <h1
-            className="
-            bg-gradient-to-r
-            from-cyan-400
-            to-teal-400
-            bg-clip-text
-            text-xl
-            font-black
-            text-transparent
-            "
-            >
-              MoodMuse
-            </h1>
+<div>
 
 
-            <p
-            className={`
-            text-xs
+<p
+className={`
 
-            ${
+${
               isDark
               ?
-              "text-neutral-400"
+"text-cyan-400"
               :
-              "text-gray-500"
-            }
+"text-cyan-400"
+}
 
             `}
-            >
-              AI Music Companion
-            </p>
+>
+              ♫၊၊||၊၊၊||၊♫
+</p>
 
 
-          </div>
+</div>
 
 
-        </div>
-
-
-
+</div>
 
 
 
-        {/* Desktop Links */}
 
 
-        <ul
-        className={`
+
+{/* Desktop Links */}
+
+
+<ul
+className={`
         hidden
         items-center
         gap-9
         md:flex
 
-        ${
+${
           isDark
           ?
-          "text-neutral-300"
+"text-neutral-300"
           :
-          "text-gray-700"
-        }
+"text-gray-700"
+}
 
         `}
-        >
+>
 
 
-          {[
+{[
             ["Home","home"],
             ["Discover","moods"],
             ["About","about"],
             ["Contact","contact"]
           ].map(([name,id])=>(
 
-            <li key={id}>
+<li key={id}>
 
-              <button
-              onClick={() => scrollToSection(id)}
-              className="
+<button
+onClick={() => scrollToSection(id)}
+className="
               text-sm
               font-medium
               transition
               hover:text-cyan-400
               "
-              >
-                {name}
-              </button>
+>
+{name}
+</button>
 
-            </li>
+</li>
 
           ))}
 
 
-        </ul>
+</ul>
 
 
 
@@ -218,22 +203,22 @@ function Navbar() {
 
 
 
-        <div
-        className="
+<div
+className="
         flex
         items-center
         gap-3
         "
-        >
+>
 
 
 
-          {/* Theme Button */}
+{/* Theme Button */}
 
 
-          <button
-          onClick={toggleTheme}
-          className={`
+<button
+onClick={toggleTheme}
+className={`
           flex
           h-10
           w-10
@@ -243,32 +228,32 @@ function Navbar() {
           transition
           hover:scale-110
 
-          ${
+${
             isDark
             ?
-            "bg-white/10 text-yellow-300"
+"bg-white/10 text-yellow-300"
             :
-            "bg-gray-200 text-gray-800"
-          }
+"bg-gray-200 text-gray-800"
+}
 
           `}
-          >
+>
 
-            {isDark ? "☀️" : "🌙"}
+{isDark ? "☀️" : "🌙"}
 
-          </button>
-
-
+</button>
 
 
 
 
-          {/* CTA */}
 
 
-          <button
-          onClick={() => scrollToSection("moods")}
-          className="
+{/* CTA */}
+
+
+<button
+onClick={() => scrollToSection("moods")}
+className="
           hidden
           rounded-full
           bg-cyan-400
@@ -281,74 +266,73 @@ function Navbar() {
           hover:bg-cyan-300
           md:block
           "
-          >
+>
 
             Start Listening
 
-          </button>
+</button>
 
 
 
 
 
 
-          {/* Mobile Menu Button */}
+{/* Mobile Menu Button */}
 
 
-          <button
-          onClick={() => setMenuOpen(!menuOpen)}
-          className="
+<button
+onClick={() => setMenuOpen(!menuOpen)}
+className="
           text-2xl
           md:hidden
           "
-          >
+>
 
-            {menuOpen ? "✕" : "☰"}
+{menuOpen ? "✕" : "☰"}
 
-          </button>
-
-
-
-        </div>
+</button>
 
 
 
-      </nav>
+</div>
 
 
+
+</nav>
 
 
 
 
 
-      {/* Mobile Menu */}
 
 
-      {
+{/* Mobile Menu */}
+
+
+{
         menuOpen && (
 
-          <div
-          className={`
+<div
+className={`
           mx-4
           mb-4
           rounded-xl
           border
           p-5
           backdrop-blur-xl
-          
-          ${
+${
             isDark
             ?
-            "border-white/10 bg-black/60"
+"border-white/10 bg-black/60"
             :
-            "border-gray-200 bg-white"
-          }
+"border-gray-200 bg-white"
+}
 
           `}
-          >
+>
 
 
-            {[
+{[
               ["Home","home"],
               ["Discover","moods"],
               ["About","about"],
@@ -356,10 +340,10 @@ function Navbar() {
             ].map(([name,id])=>(
 
 
-              <button
-              key={id}
-              onClick={() => scrollToSection(id)}
-              className="
+<button
+key={id}
+onClick={() => scrollToSection(id)}
+className="
               block
               w-full
               py-3
@@ -367,24 +351,24 @@ function Navbar() {
               transition
               hover:text-cyan-400
               "
-              >
+>
 
-                {name}
+{name}
 
-              </button>
+</button>
 
 
             ))}
 
 
-          </div>
+</div>
 
         )
-      }
+}
 
 
 
-    </header>
+</header>
 
   );
 }

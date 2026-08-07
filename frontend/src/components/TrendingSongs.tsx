@@ -47,7 +47,7 @@ function TrendingSongs() {
         </h2>
 
         <p className="mx-auto mt-6 max-w-2xl text-lg text-neutral-400">
-          Explore trending songs handpicked by MoodMuse across
+          Explore trending songs handpicked by Moodisai across
           different moods and genres.
         </p>
       </div>

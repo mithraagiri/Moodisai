@@ -114,11 +114,11 @@ opacity-80
 
 >
 
-MoodMuse is an AI-powered music discovery platform
+Moodisai is a mood-based music discovery platform
 built to connect emotions with music.
 
-Designed and developed with passion for AI,
-technology and creativity.
+Designed and developed with passion for
+technology, music and creativity.
 
 </p>
 

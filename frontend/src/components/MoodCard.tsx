@@ -14,18 +14,18 @@ function MoodCard({
   onClick,
 }: MoodCardProps) {
 
-  const { theme } = useTheme();
+const { theme } = useTheme();
 
-  const isDark = theme === "dark";
+const isDark = theme === "dark";
 
 
-  return (
+return (
 
-    <button
-      onClick={onClick}
-      aria-pressed={selected}
+<button
+onClick={onClick}
+aria-pressed={selected}
 
-      className={`
+className={`
       group
       relative
       overflow-hidden
@@ -39,12 +39,12 @@ function MoodCard({
       active:scale-95
 
 
-      ${
+${
         selected
 
         ?
 
-        `
+`
         border
         border-cyan-400
         bg-gradient-to-br
@@ -60,7 +60,7 @@ function MoodCard({
 
         ?
 
-        `
+`
         border
         border-white/10
         bg-white/[0.04]
@@ -72,24 +72,24 @@ function MoodCard({
 
         :
 
-        `
+`
         border
         border-gray-200
         bg-white/70
         hover:border-cyan-400/60
         hover:shadow-[0_0_40px_rgba(34,211,238,0.18)]
         `
-      }
+}
 
       `}
-    >
+>
 
 
 
-      {/* Animated Glow */}
+{/* Animated Glow */}
 
-      <div
-      className="
+<div
+className="
       absolute
       -right-16
       -top-16
@@ -103,16 +103,16 @@ function MoodCard({
       duration-700
       group-hover:opacity-100
       "
-      />
+/>
 
 
 
 
 
-      {/* Shine Effect */}
+{/* Shine Effect */}
 
-      <div
-      className="
+<div
+className="
       absolute
       inset-0
       -translate-x-full
@@ -124,7 +124,7 @@ function MoodCard({
       duration-700
       group-hover:translate-x-full
       "
-      />
+/>
 
 
 
@@ -132,10 +132,10 @@ function MoodCard({
 
 
 
-      {/* Selected Indicator */}
+{/* Selected Indicator */}
 
-      <div
-      className={`
+<div
+className={`
       absolute
       right-5
       top-5
@@ -148,16 +148,16 @@ function MoodCard({
       duration-500
 
 
-      ${
+${
         selected
         ?
-        "scale-100 opacity-100"
+"scale-100 opacity-100"
         :
-        "scale-0 opacity-0 group-hover:scale-100"
-      }
+"scale-0 opacity-0 group-hover:scale-100"
+}
 
       `}
-      />
+/>
 
 
 
@@ -165,10 +165,10 @@ function MoodCard({
 
 
 
-      {/* Emoji */}
+{/* Emoji */}
 
-      <div
-      className="
+<div
+className="
       relative
       mb-5
       text-6xl
@@ -177,21 +177,21 @@ function MoodCard({
       group-hover:scale-125
       group-hover:-translate-y-1
       "
-      >
+>
 
-        {emoji}
+{emoji}
 
-      </div>
-
-
+</div>
 
 
 
 
-      {/* Mood Name */}
 
-      <h3
-      className={`
+
+{/* Mood Name */}
+
+<h3
+className={`
       relative
       text-lg
       font-bold
@@ -199,63 +199,63 @@ function MoodCard({
       duration-300
 
 
-      ${
+${
         selected
 
         ?
-        "text-cyan-400"
+"text-cyan-400"
 
         :
 
         isDark
 
         ?
-        "text-white"
+"text-white"
 
         :
-        "text-gray-900"
-      }
+"text-gray-900"
+}
 
       `}
-      >
+>
 
-        {title}
+{title}
 
-      </h3>
-
-
+</h3>
 
 
 
 
-      {/* AI Tag */}
 
-      <p
-      className={`
+
+{/* Match Tag */}
+
+<p
+className={`
       mt-2
       text-xs
       transition-opacity
       duration-300
 
 
-      ${
+${
         selected
         ?
-        "opacity-100 text-cyan-300"
+"opacity-100 text-cyan-300"
         :
-        "opacity-0 group-hover:opacity-100 text-neutral-400"
-      }
+"opacity-0 group-hover:opacity-100 text-neutral-400"
+}
 
       `}
-      >
+>
 
-        AI mood match
+        Mood match
 
-      </p>
+</p>
 
 
 
-    </button>
+</button>
 
   );
 }

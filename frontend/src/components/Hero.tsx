@@ -193,7 +193,7 @@ text-cyan-400
 
 >
 
-AI-Powered Music Discovery
+Mood-Powered Music Discovery
 
 </span>
 
@@ -292,7 +292,7 @@ isDark
 
 >
 
-MoodMuse uses AI to understand your emotions and recommends songs that match your feelings, language and personal vibe.
+Moodisai understands your emotions and recommends songs that match your feelings, language and personal vibe.
 
 </p>
 
@@ -453,7 +453,7 @@ lg:justify-start
 [
 ["16+","Mood Types"],
 ["1000+","Songs"],
-["AI","Smart Picks"]
+["Instant","Smart Picks"]
 
 ].map(([number,text])=>(
 
@@ -526,7 +526,7 @@ isDark
 
 
 
-{/* RIGHT AI CARD */}
+{/* RIGHT MOOD CARD */}
 
 
 
@@ -574,7 +574,7 @@ isDark
 
 <p className="text-cyan-400 font-semibold">
 
-🤖 MoodMuse AI
+🤖 Moodisai
 
 </p>
 
@@ -640,7 +640,7 @@ p-5
 
 <p className="text-cyan-400">
 
-AI Recommendation
+Smart Pick
 
 </p>
 

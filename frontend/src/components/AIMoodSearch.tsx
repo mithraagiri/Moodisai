@@ -243,7 +243,7 @@ if (matchingSongs.length > 0) {
           text-cyan-400
           font-medium
         ">
-          AI Mood Search
+          Mood Search
         </p>
 
 
@@ -400,7 +400,7 @@ if (matchingSongs.length > 0) {
 
 
             <p className="text-cyan-300">
-              🤖 Mood Engine Result
+              🎯 Mood Engine Result
             </p>
 
 
@@ -423,7 +423,7 @@ if (matchingSongs.length > 0) {
 
             <p className="mt-3 text-neutral-400">
 
-              AI Confidence:
+              Match Confidence:
               <span className="text-white">
                 {" "}{confidence}
               </span>
@@ -452,7 +452,7 @@ if (matchingSongs.length > 0) {
 
 
               <p className="text-cyan-300">
-                🎧 AI Recommended Song
+                🎧 Recommended Song
               </p>
 
 

@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import json
 
 app = FastAPI(
-    title="MoodMuse API",
+    title="Moodisai API",
     description="Music recommendation backend",
     version="1.0"
 )
@@ -15,7 +15,7 @@ app.add_middleware(
         "http://127.0.0.1:5173",
         "http://192.168.1.10:5173",
         "https://moodmuse-eight.vercel.app",
-        "https://moodmuse-backend-npfm.onrender.com"
+        "https://moodmuse-backend-npfm.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -26,7 +26,7 @@ app.add_middleware(
 @app.get("/")
 def home():
     return {
-        "message": "MoodMuse Backend is running 🎧"
+        "message": "Moodisai Backend is running 🎧"
     }
 
 

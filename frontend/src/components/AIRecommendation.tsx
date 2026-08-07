@@ -314,7 +314,7 @@ Finding your vibe...
 
 <p className="mt-4 text-gray-500">
 
-MoodMuse AI is matching your emotion 🎧
+Moodisai is matching your emotion 🎧
 
 </p>
 
@@ -528,7 +528,7 @@ tracking-[0.3em]
 text-cyan-400
 ">
 
-AI Recommendation
+Your Recommendation
 
 </p>
 
@@ -622,7 +622,7 @@ py-2
 text-cyan-400
 ">
 
-🤖 AI Selected
+🎯 Smart Pick
 
 </div>
 
@@ -818,7 +818,7 @@ font-bold
 text-cyan-400
 ">
 
-🤖 MoodMuse AI Insight
+🤖 Moodisai Insight
 
 </h4>
 
