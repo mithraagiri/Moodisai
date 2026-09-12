@@ -2,7 +2,7 @@
 
 ### Music that matches your mood.
 
-MoodMuse is a music companion that recommends songs based on how you feel.
+Moodisai is a music companion that recommends songs based on how you feel.
 
 What started as a simple Python mood-based recommendation project has evolved into a responsive, full-stack web application with mood-based recommendations, multi-language support, insights, music links, an interactive chatbot, and a modern glassmorphism interface.
 
@@ -13,7 +13,7 @@ What started as a simple Python mood-based recommendation project has evolved in
 
 # 📌 About the Project
 
-MoodMuse combines music, emotions, and technology to create a personalized music discovery experience.
+Moodisai combines music, emotions, and technology to create a personalized music discovery experience.
 
 Users can select their mood and preferred language, and MoodMuse finds a suitable song from its curated music library. The recommendation experience includes mood matching, insights, song information, and direct Spotify and YouTube links.
 
@@ -28,7 +28,7 @@ The project began as a simple Python program and gradually evolved into a full-s
 * 😊 Mood-based song recommendations
 * 🎯 Mood Match percentage
 * 🤖 Recommendation experience
-* 💡 MoodMuse Insight for each recommendation
+* 💡 Moodisai Insight for each recommendation
 * 🔄 Find Another Song option
 * 🎲 Randomized song selection
 * 🎵 Song title and artist information
@@ -144,7 +144,7 @@ MoodMuse currently includes **16 mood categories**:
 
 # 🧠 Concepts Learned
 
-Building MoodMuse helped me progress from Python fundamentals to full-stack web development.
+Building Moodisai helped me progress from Python fundamentals to full-stack web development.
 
 ### Python
 
@@ -201,7 +201,7 @@ Building MoodMuse helped me progress from Python fundamentals to full-stack web 
 
 ---
 
-# 🔄 How MoodMuse Works
+# 🔄 How Moodisai Works
 
 ```text
 User
@@ -276,8 +276,8 @@ MoodMuse/
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/mithraagiri/MoodMuse.git
-cd MoodMuse
+git clone https://github.com/mithraagiri/Moodisai.git
+cd Moodisai
 ```
 
 ## 2. Start the backend
@@ -344,7 +344,7 @@ Vite will provide the local development URL.
 
 # 🌐 Live Deployment
 
-MoodMuse is deployed as a full-stack web application.
+Moodisai is deployed as a full-stack web application.
 
 ### Frontend
 
@@ -359,35 +359,21 @@ MoodMuse is deployed as a full-stack web application.
 **GitHub**
 
 🌐 **Live Demo:**
-https://moodmuse-eight.vercel.app
+https://moodisai-eight.vercel.app
 
 💻 **GitHub Repository:**
-https://github.com/mithraagiri/MoodMuse
+https://github.com/mithraagiri/Moodisai
 
 ---
 
 # 📷 Project Preview
 
-Screenshots can be added here.
+<img width="2938" height="1663" alt="Screenshot 2026-09-12 at 11 55 04 AM" src="https://github.com/user-attachments/assets/461bda91-89f9-48c5-beaa-361fd6b80550" />
 
-Suggested screenshots:
-
-* 🏠 Home page
-* 🎭 Mood selection
-* 🌎 Language selection
-* 🤖 Recommendation
-* 🎯 Mood Match card
-* 💬 Talk with Mia
-* 🎨 Dark mode
-* ☀️ Light mode
-* 📱 Mobile interface
-* 👤 Creator section
-
----
 
 # 🔮 Future Improvements
 
-MoodMuse is still evolving. Future possibilities include:
+Moodisai is still evolving. Future possibilities include:
 
 * 🧠 More advanced recommendations
 * 🎤 Natural-language mood detection
@@ -406,7 +392,7 @@ MoodMuse is still evolving. Future possibilities include:
 
 # 💡 Project Journey
 
-MoodMuse started as a small Python project created to practice programming fundamentals.
+Moodisai started as a small Python project created to practice programming fundamentals.
 
 It gradually evolved into a full-stack application while exploring:
 
@@ -455,6 +441,6 @@ https://github.com/mithraagiri
 
 # ⭐ Support
 
-If you find MoodMuse interesting, consider giving the repository a ⭐ on GitHub!
+If you find Moodisai interesting, consider giving the repository a ⭐ on GitHub!
 
 **Made with 💙, code, and a lot of music. 🎧**
