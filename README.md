@@ -6,8 +6,8 @@ Moodisai is a music companion that recommends songs based on how you feel.
 
 What started as a simple Python mood-based recommendation project has evolved into a responsive, full-stack web application with mood-based recommendations, multi-language support, insights, music links, an interactive chatbot, and a modern glassmorphism interface.
 
-🌐 **Live Demo:** https://moodmuse-eight.vercel.app
-💻 **GitHub:** https://github.com/mithraagiri/MoodMuse
+🌐 **Live Demo:** https://moodisai-eight.vercel.app
+💻 **GitHub:** https://github.com/mithraagiri/Moodisai
 
 ---
 
